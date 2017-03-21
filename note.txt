@@ -1,0 +1,8 @@
+Libraries Used:
+
+ecto + postgrex: database adapter
+httpoison:       http adapter
+poison:          JSON parser
+
+Assumptions:
+* server and database use UTC for all times, not an issue for this but for any long lived system using timestamps that have daylight saving involved is just asking for trouble.
